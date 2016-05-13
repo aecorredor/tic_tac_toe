@@ -15,7 +15,7 @@ module TicTacToe
 
     context '#color' do
       it 'returns the color' do
-        input = { color: 'X', name: 'Someone'}
+        input = { color: 'X', name: 'Someone' }
         player = Player.new(input)
         expect(player.color).to eq 'X'
       end
@@ -23,7 +23,7 @@ module TicTacToe
 
     context '#name' do
       it 'returns the name' do
-        input = { color: 'X', name: 'Someone'}
+        input = { color: 'X', name: 'Someone' }
         player = Player.new(input)
         expect(player.name).to eq 'Someone'
       end
