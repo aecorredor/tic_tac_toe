@@ -25,7 +25,7 @@ module TicTacToe
     end
 
     def play
-      puts "#{current_player.name} has randomly been selected to start}"
+      puts "#{current_player.name} has randomly been selected to start"
       loop do
         board.formatted_grid
         puts ''
